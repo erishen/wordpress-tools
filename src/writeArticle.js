@@ -22,12 +22,14 @@ if (WORDPRESS_URL && WORDPRESS_USERNAME && WORDPRESS_APP_PASSWORD) {
 
   const markdownContent = fs.readFileSync(markdownFileName, 'utf8');
 
-  // 将 Markdown 转换为 HTML
-  const htmlContent = marked.parse(markdownContent);
-
   // 使用正则表达式提取第一个 h1 标题
   const titleMatch = markdownContent.match(/^# (.+)$/m);
   const title = titleMatch ? titleMatch[1] : defaultTitle;
+
+  const content = titleMatch ? markdownContent.substring(titleMatch.index + titleMatch[1].length + 3) : markdownContent;
+
+  // 将 Markdown 转换为 HTML
+  const htmlContent = marked.parse(content);
 
   // 替换为你的 WordPress 网站的 URL
   const wordpressUrl = WORDPRESS_URL;
