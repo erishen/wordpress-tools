@@ -20,7 +20,7 @@ if (WORDPRESS_URL && WORDPRESS_USERNAME && WORDPRESS_APP_PASSWORD) {
     markdownFileName = markdownFileName + '.md'
   }
 
-  const markdownContent = fs.readFileSync(markdownFileName, 'utf8');
+  const markdownContent = fs.readFileSync('articles/' + markdownFileName, 'utf8');
 
   // 使用正则表达式提取第一个 h1 标题
   const titleMatch = markdownContent.match(/^# (.+)$/m);
