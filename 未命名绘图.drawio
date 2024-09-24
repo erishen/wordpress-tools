@@ -1,9 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="IbXTCH8buuqp_ciu2iEG">
-    <mxGraphModel>
+    <mxGraphModel dx="973" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ify9BwKVLtW9Kbt5GXrW-1" target="ify9BwKVLtW9Kbt5GXrW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-1" value="输入 1/5, 1/3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ify9BwKVLtW9Kbt5GXrW-2" target="ify9BwKVLtW9Kbt5GXrW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-2" value="两数相加" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ify9BwKVLtW9Kbt5GXrW-4" target="ify9BwKVLtW9Kbt5GXrW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-4" value="是否大于3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ify9BwKVLtW9Kbt5GXrW-6" target="ify9BwKVLtW9Kbt5GXrW-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-6" value="减去 3/4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-11" value="输出结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-18" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;strokeColor=default;entryX=1.008;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ify9BwKVLtW9Kbt5GXrW-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="380" />
+              <mxPoint x="440" y="380" />
+              <mxPoint x="440" y="617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-20" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ify9BwKVLtW9Kbt5GXrW-21" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="408" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
