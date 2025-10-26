@@ -31,7 +31,7 @@ npm install
 1. 创建 `.env` 文件：
 
 ```bash
-WORDPRESS_URL="https://www.erishen.cn/wordpress/?rest_route=/wp/v2/posts"
+WORDPRESS_URL="https://your_website/wordpress/?rest_route=/wp/v2/posts"
 WORDPRESS_USERNAME="your_username"
 WORDPRESS_APP_PASSWORD="your_app_password"
 ```
