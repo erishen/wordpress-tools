@@ -4,3 +4,4 @@ node_modules
 articles/*.md
 articles/*/*.md
 .DS_Store
+assets
