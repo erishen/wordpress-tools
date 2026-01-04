@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#312e81;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="bunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f65;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="shadcnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- 装饰性几何图形 -->
+  <circle cx="100" cy="80" r="40" fill="rgba(99,102,241,0.1)" opacity="0.3"/>
+  <circle cx="1100" cy="120" r="60" fill="rgba(139,92,246,0.1)" opacity="0.3"/>
+  <rect x="50" y="520" width="80" height="80" fill="rgba(255,107,53,0.1)" opacity="0.3" rx="20"/>
+  
+  <!-- 主标题 -->
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" filter="url(#glow)">
+    构建现代化组件库
+  </text>
+  
+  <text x="600" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="normal" fill="#e2e8f0">
+    shadcn + Bun 前端开发革命
+  </text>
+  
+  <!-- Bun 性能展示 -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="200" width="260" height="140" rx="15" fill="url(#bunGradient)" opacity="0.9"/>
+    <text x="210" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">
+      Bun
+    </text>
+    <text x="210" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white">
+      2.1s
+    </text>
+    <text x="210" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.9">
+      install
+    </text>
+    <text x="210" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.8">
+      极致速度
+    </text>
+  </g>
+  
+  <!-- 传统方式对比 -->
+  <g filter="url(#shadow)">
+    <rect x="860" y="200" width="260" height="140" rx="15" fill="#64748b" opacity="0.8"/>
+    <text x="990" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">
+      npm
+    </text>
+    <text x="990" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white">
+      45.2s
+    </text>
+    <text x="990" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.9">
+      install
+    </text>
+    <text x="990" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.8">
+      传统方式
+    </text>
+  </g>
+  
+  <!-- 箭头对比 -->
+  <g>
+    <path d="M 350 270 L 850 270" stroke="#10b981" stroke-width="4" marker-end="url(#arrowgreen)" fill="none"/>
+    <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#10b981">
+      21x 更快
+    </text>
+  </g>
+  
+  <defs>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#10b981" />
+    </marker>
+  </defs>
+  
+  <!-- Copy vs Install 概念展示 -->
+  <g>
+    <text x="600" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">
+      "Copy instead of install"
+    </text>
+  </g>
+  
+  <!-- 左：传统安装 -->
+  <g filter="url(#shadow)">
+    <rect x="120" y="400" width="220" height="100" rx="12" fill="#dc2626" opacity="0.8"/>
+    <text x="230" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+      传统安装
+    </text>
+    <text x="230" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+      30+ 依赖包
+    </text>
+    <text x="230" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+      版本冲突频繁
+    </text>
+    <text x="230" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+      定制困难
+    </text>
+  </g>
+  
+  <!-- 右：shadcn 方式 -->
+  <g filter="url(#shadow)">
+    <rect x="860" y="400" width="220" height="100" rx="12" fill="url(#shadcnGradient)" opacity="0.9"/>
+    <text x="970" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+      shadcn 方式
+    </text>
+    <text x="970" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+      零额外依赖
+    </text>
+    <text x="970" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+      完全可控
+    </text>
+    <text x="970" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+      即时使用
+    </text>
+  </g>
+  
+  <!-- shadcn 图标 -->
+  <g filter="url(#shadow)">
+    <circle cx="600" cy="450" r="30" fill="url(#shadcnGradient)"/>
+    <text x="600" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">
+      S
+    </text>
+  </g>
+  
+  <!-- 底部信息 -->
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e2e8f0">
+    Next.js 14 • React 18 • TypeScript 5.5 • 组件注册表
+  </text>
+  
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">
+    erishen.github.io/shadcn-registry
+  </text>
+  
+  <!-- 装饰性连接线 -->
+  <g opacity="0.2">
+    <path d="M 100 130 Q 300 90 500 130 T 900 130 Q 1100 160 1100 160" stroke="rgba(99,102,241,0.4)" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <path d="M 200 390 Q 400 420 600 390 T 1000 390" stroke="rgba(255,107,53,0.4)" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  </g>
+</svg>
