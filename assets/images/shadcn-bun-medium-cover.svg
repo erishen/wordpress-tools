@@ -40,52 +40,46 @@
   <rect x="50" y="520" width="80" height="80" fill="rgba(255,107,53,0.1)" opacity="0.3" rx="20"/>
   
   <!-- 主标题 -->
-  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" filter="url(#glow)">
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white" filter="url(#glow)">
     构建现代化组件库
   </text>
   
-  <text x="600" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="normal" fill="#e2e8f0">
+  <text x="600" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#e2e8f0">
     shadcn + Bun 前端开发革命
   </text>
   
   <!-- Bun 性能展示 -->
   <g filter="url(#shadow)">
-    <rect x="80" y="200" width="260" height="140" rx="15" fill="url(#bunGradient)" opacity="0.9"/>
-    <text x="210" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">
+    <rect x="80" y="180" width="260" height="130" rx="15" fill="url(#bunGradient)" opacity="0.9"/>
+    <text x="210" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
       Bun
     </text>
-    <text x="210" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white">
+    <text x="210" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">
       2.1s
     </text>
-    <text x="210" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.9">
+    <text x="210" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.9">
       install
-    </text>
-    <text x="210" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.8">
-      极致速度
     </text>
   </g>
   
   <!-- 传统方式对比 -->
   <g filter="url(#shadow)">
-    <rect x="860" y="200" width="260" height="140" rx="15" fill="#64748b" opacity="0.8"/>
-    <text x="990" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">
+    <rect x="860" y="180" width="260" height="130" rx="15" fill="#64748b" opacity="0.8"/>
+    <text x="990" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
       npm
     </text>
-    <text x="990" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white">
+    <text x="990" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">
       45.2s
     </text>
-    <text x="990" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.9">
+    <text x="990" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.9">
       install
-    </text>
-    <text x="990" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.8">
-      传统方式
     </text>
   </g>
   
   <!-- 箭头对比 -->
   <g>
-    <path d="M 350 270 L 850 270" stroke="#10b981" stroke-width="4" marker-end="url(#arrowgreen)" fill="none"/>
-    <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#10b981">
+    <path d="M 350 245 L 850 245" stroke="#10b981" stroke-width="4" marker-end="url(#arrowgreen)" fill="none"/>
+    <text x="600" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#10b981">
       21x 更快
     </text>
   </g>
@@ -98,65 +92,59 @@
   
   <!-- Copy vs Install 概念展示 -->
   <g>
-    <text x="600" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">
+    <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
       "Copy instead of install"
     </text>
   </g>
   
   <!-- 左：传统安装 -->
   <g filter="url(#shadow)">
-    <rect x="120" y="400" width="220" height="100" rx="12" fill="#dc2626" opacity="0.8"/>
-    <text x="230" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    <rect x="120" y="380" width="220" height="90" rx="12" fill="#dc2626" opacity="0.8"/>
+    <text x="230" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
       传统安装
     </text>
-    <text x="230" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+    <text x="230" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" opacity="0.9">
       30+ 依赖包
     </text>
-    <text x="230" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
-      版本冲突频繁
-    </text>
-    <text x="230" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
-      定制困难
+    <text x="230" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" opacity="0.9">
+      版本冲突
     </text>
   </g>
   
   <!-- 右：shadcn 方式 -->
   <g filter="url(#shadow)">
-    <rect x="860" y="400" width="220" height="100" rx="12" fill="url(#shadcnGradient)" opacity="0.9"/>
-    <text x="970" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    <rect x="860" y="380" width="220" height="90" rx="12" fill="url(#shadcnGradient)" opacity="0.9"/>
+    <text x="970" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
       shadcn 方式
     </text>
-    <text x="970" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+    <text x="970" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" opacity="0.9">
       零额外依赖
     </text>
-    <text x="970" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
+    <text x="970" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" opacity="0.9">
       完全可控
-    </text>
-    <text x="970" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.9">
-      即时使用
     </text>
   </g>
   
   <!-- shadcn 图标 -->
   <g filter="url(#shadow)">
-    <circle cx="600" cy="450" r="30" fill="url(#shadcnGradient)"/>
-    <text x="600" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">
+    <circle cx="600" cy="425" r="25" fill="url(#shadcnGradient)"/>
+    <text x="600" y="433" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">
       S
     </text>
   </g>
   
   <!-- 底部信息 -->
-  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e2e8f0">
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e2e8f0">
     Next.js 14 • React 18 • TypeScript 5.5 • 组件注册表
   </text>
   
-  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">
+  <text x="600" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">
     erishen.github.io/shadcn-registry
   </text>
   
   <!-- 装饰性连接线 -->
   <g opacity="0.2">
     <path d="M 100 130 Q 300 90 500 130 T 900 130 Q 1100 160 1100 160" stroke="rgba(99,102,241,0.4)" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
-    <path d="M 200 390 Q 400 420 600 390 T 1000 390" stroke="rgba(255,107,53,0.4)" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+    <path d="M 200 370 Q 400 400 600 370 T 1000 370" stroke="rgba(255,107,53,0.4)" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
   </g>
 </svg>

@@ -3,5 +3,7 @@
 node_modules
 articles/*/*.md
 .DS_Store
-assets
+assets/*
+!assets/*.png
+!assets/images/*.png
 backup
